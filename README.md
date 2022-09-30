@@ -1,26 +1,47 @@
-# An analysis of Kickstarter Campaigns
+# Kickstarting with Excel
 
-In this project we analalized the trends of different kinds of kickstarters campaigns, so we can learn about the mean goal of the campains, the mean pledge and the date when the campaigns started and how this affects their success.
+## Overview
+This project was performed to help Louise with her crowfunding of over $10,000 for her play "Fever". This analysis was created with the objective of helping louise to make the best decissions based on the information of different kinds of campaigns and the outcomes that these campaigns had. The success of these campaigns depended on the country, the crowfunding goal, the launch date and many factors more.
 
-We found out that between the years 2009 and 2017 there were 1393 theater kickstarter campaigns all aroaund the world. Out of the 1393 theater kickstarter campaigns 37 were canceled, 493 failed, 24 are live and 829 were successful.
+### Purpose
+For Louise,  I analyzed the trends of similar kickstarters campaigns to hers, to help her to see the behaviour of these campaigns based on the goal of each campaign and the launch date of the crowfunding.
 
+##Analysis and Challenges
 
-![Theater_Campaigns](/Users/albertoqs/Desktop/Analysis Project/Crowfunding analysis/Theater_Campaigns.png)
+The analysis created for Louise is divided in two parts.
 
-In Great Britain there were 359 theater kickstarter campaigns divided in three subcategorys:
+Ther first one was based on the launch of theater campaings. Using a Pivot Table the information was shown as in figure 1. Where the information was filtered by Parent Category and Year of the campaign. The rows shows the month of creation of the campaigns and the columns shows the outcomes of each campaign and their distribution among the months of the year.
 
-  1)Musical: 26 campaigns in total, 5 were canceled, 11 failed and 10 were successful.
-  2)Plays: 314 campaigns in total, 70 failed, 6 are live and 238 were successful.
-  3)Spaces: 19 campaigns in total, 1 were canceled, 8 failed and 10 were succesful.
-  
-![Sub_Theater](/Users/albertoqs/Desktop/Analysis Project/Crowfunding analysis/Sub_Theater.png)
-  
-In general terms, out of all the succesful campaigns the month that launched the most successful Kickstarter campaigns was May.
+![5C63136D-7C15-4E26-B0F7-5A49FEF1653B](https://user-images.githubusercontent.com/93279134/193160329-f38e649d-a7cb-4826-8fc8-e3e29514a6df.jpeg)
 
-![Date_Success](/Users/albertoqs/Desktop/Analysis Project/Crowfunding analysis/Date_Success.png)
+Figure 1.
+                                        
 
-According to the analysis performed in the US theater/plays Kickstrters Campaigns we found out that the Mean goal of the successful campaigns was $5,049 with a Median goal of $3,000 and the Mean goal of the failed campaigns was $10,554 with a Median goal of $5,000. We can concluded based on this infomation that the campaigns should have a goal smaller than $5,000 and also, based on te Upper Quartile of goal of the successful campaigns we know that 75% of the succesful campaigns had a goal smaller than $5,000.
+The information showed that between the years 2009 and 2017 there were 1393 theater kickstarter campaigns all aroaund the world. Out of the 1393 theater kickstarter campaigns 37 were canceled, 493 failed, 24 are live and 829 were successful.
 
-Respect to the investigation on musicals in Great Britain we can conclued that the mean goal is around £4,000. This exceed the upper limit of the range of outliers for amount pledge, so you should probably try to produced your play for less than £4,000. Half of the campaign goals are less than £2,000, which is just over the 3rd quartile for amounts pledged.
+The second one was based on the outcomes according to the goal of each campaign, where the campaigns where filtered according to differente ranges of money, where the first range was campaigns under $1,000 and the last range was campaigns over $50,000. As we can see in figure 2.
 
-![GandP_Musicals](/Users/albertoqs/Desktop/Analysis Project/Crowfunding analysis/GandP_Musicals.png)
+![4BA3858D-514E-4980-A2A7-F2B23F244699_4_5005_c](https://user-images.githubusercontent.com/93279134/193160400-406f83cd-0dff-4dad-85b4-f1bd0b1b24a5.jpeg)
+
+Figure 2.
+
+### Challenges and Difficulties Encountered
+
+In general terms, the main challenge was to know the data base and to adapt myself to the use of the software, because even though it's a simple program the use of new tools brings new challenges and I needed to ay more atttention to simple thinks that may cause an error in my results.
+
+One of the difficulties was to explore the dataset, it has a lot of information and getting to know or discard certain information to make the most out of it was a bit difficult at first.
+
+## Results
+According to the figure 1 and the figure 3 I came to two main conclusions based on the Theather campaigns launch date. The first one is that out of the 839 successful campaings performed between the years 2009 and 2017, 111 were done in May. And the second one is, that the month that had the most failed campaigns without taking into account the month of May was October, this could be related to certain behaviors that represent different countrys.
+
+![LaunchDate](https://user-images.githubusercontent.com/93279134/193161510-01073967-2c49-41a9-91e0-79001dfbe0e8.png)
+Figure 3.
+
+Regarding to the outcomes based on the goal we can see in the figure 4 that the ammount of money has a inverse relationship with the succes of the campaign showing that the bigger the goal the more probable is that the campaign fails.
+
+![OutomesGoal](https://user-images.githubusercontent.com/93279134/193161814-3a495e14-a718-4de4-9686-584a335ec4f2.png)
+Figure 4.
+
+Once finished this analysis, the main limitation of this dataset is that is way to general. In my point of view, we can't define the behaviour of a whole country because each part of a place has certain particularities and they need to be taken into account.
+
+Depending on the information we would want to display, some other graphs that we could use are pie charts and histograms to show the distribution of the information.
